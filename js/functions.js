@@ -80,6 +80,43 @@ function checkTimeOut() {
     console.log("Timeout", TIMEOUT_TIME)
 }
 checkTimeOut();
-console.log(date);//erişemiyor consolda hata veriyor.
+//console.log(date);//erişemiyor consolda hata veriyor.
+
+console.log("**************")
+
+//Javascript, Python - Interpreter
+// Java, C# - Compiler
+function fnA() {
+    console.log("A Fonksiyonu")
+}
+
+function fnB() {
+    console.log("B Fonksiyonu")
+}
+
+function fnC() {
+    console.log("C Fonksiyonu")
+}
+
+fnA()
+fnB()
+fnC()
+
+//OBJE Kavramı
+// key-value    
+const student = {
+    name: "Semra",
+    age: 28,
+    gender: "male",
+    city: "Balıkesir",
+    language: "Turkish",
+    isMarried: true,
+    programingLanguales: ["Flutter", "Dart", "Python", "Javascript"]
+}
+
+console.log("Öğrencinin adı: ", student.name)   
+console.log("Öğrencinin bildiği programlar: ", student.programingLanguales)   
+student.age = 30;
+console.log(student.age)
 
 
